@@ -1,0 +1,223 @@
+/* Palette 
+- #5d5c61
+- #379683
+- #7395ae
+- #557a95
+- #b1a296 */
+
+body {
+    background-color: #314d61;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    font-family: 'Orbitron', sans-serif;
+    line-height: 2;
+    font-size: 16px;
+
+}
+
+.nav-container {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width:110%;
+    align-items: center;
+    background-color: #7395ae;
+    height: 80px;
+    top: 0px;
+    box-shadow: 10px 8px 14px 0px #3e7ca5;
+    position: fixed;
+    scroll-behavior: smooth;
+    right: 10px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-shadow: 4px 4px #0c3855;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+nav a:hover {
+    transform: scale(1.5);
+}
+
+.about-me h2 {
+    text-align: center;
+    margin-top: -100px;
+    font-size: 30px;
+    text-shadow: 4px 4px #0c3855;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+main {
+    padding-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+.top {
+    width: 110%;
+    margin-left: -20px;
+    box-shadow: 0px 14px 14px 0px #2a3d4b;
+    height: 80%;
+}
+
+h1 {
+    position: relative;
+    bottom: 400px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
+    text-shadow: -2px 12px #0f151a;
+}
+
+
+
+
+h1:hover {
+    transform: scale(1.5);
+}
+.other-projects img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+/* 
+.other-projects {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+} */
+
+.other-projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pic1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.pic2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.pic3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.pic4 {
+    grid-column: 1fr;
+    grid-row: 2/3;
+}
+
+.pic5 {
+    grid-column: 1fr;
+    grid-row: 2/3;
+}
+
+.pic6 {
+    grid-column: 1fr;
+    grid-row: 2/3;
+}
+
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea {
+    width: 80%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+input {
+    display: block;
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    margin-bottom: -20px;
+}
+
+
+
+.animation-container {
+    height: 1000px;
+}
+
+.about-me {
+    margin: 0 auto;
+    text-align: left;
+}
+
+.about-me p {
+    margin-top: 20px;
+}
+
+.highlight img {
+    width: 400px;
+    height: 250px;
+}
+
+.carousel-container {
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 62px; 
+}
+
+.main-projects img{
+    margin-top: 50px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+
+.highlight p {
+    display: none;
+}
+
+.highlight img {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* Need to create  */

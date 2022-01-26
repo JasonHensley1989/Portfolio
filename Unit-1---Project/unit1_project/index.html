@@ -18,11 +18,11 @@
     <header class="nav-img">
         <div class="nav-container"></div>
             <nav class="nav">
-                <a href="#">About Me</a>
-                <a href="#">Skills</a>
-                <a href="#">Projects</a>
+                <a href="#about-me">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
                 <a href="#">Resume</a>
-                <a href="#">Contact</a>
+                <a href="#contact">Contact</a>
             </nav>
         </div>
         <div class="animation-container">  
@@ -34,7 +34,7 @@
     <!-- Main Content -->
     <main class="main-container">
         <!-- About Me Section -->
-        <div class="about-me">
+        <div class="about-me" id="about-me">
             <h2 id="about-header">About Me</h2>
             <p class="about-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae odio eveniet tenetur exercitationem doloribus porro odit recusandae? Iste eum cumque necessitatibus quo, nemo, dolorum deserunt molestiae recusandae magni explicabo beatae?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam consequatur explicabo doloremque dolores alias asperiores tenetur, placeat mollitia repellat molestias sit quo voluptates blanditiis perferendis sint consectetur itaque quibusdam nemo!</p>
             <p class="about-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis facere porro harum quam, nobis placeat veritatis omnis sit vero animi accusantium quis quasi, corrupti odio eaque tempore est ducimus sequi!beatae?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita beatae ab minus rem quod vitae, veniam asperiores autem? Ad voluptas odit earum nisi illo neque possimus quisquam rem asperiores voluptatum.</p>
@@ -46,7 +46,7 @@
         <!-- Carousel  -->
      <!-- Source Code: https://www.w3schools.com/howto/howto_js_slideshow.asp -->
        <!-- Carousel container -->
-<div class="slideshow-container">
+<div class="slideshow-container" id="skills">
     <h2 class="skills">Skills & Technologies</h2>
     <div class="mySlides fade">
       <div class="numbertext">1 / 4</div>
@@ -92,7 +92,7 @@
 
         <hr>
         <!-- Project Highlights -->
-        <div class="main-projects">
+        <div class="main-projects" id="projects">
             <h2 class="projects-title">Main Projects</h2>
             <!-- first project -->
             <div class="highlight">
@@ -122,7 +122,9 @@
         <!-- Clickable Project Section -->
         
         <div class="other-projects">
+            <div class="extra-projects-title">
             <h2 class="projects">Tap to see more projects</h2>
+            </div>
             <br>
             <img class="pic" src="https://cdn.pixabay.com/photo/2020/04/13/09/07/royal-mile-5037397_960_720.jpg" alt="project1">
             <img class="pic" src="https://cdn.pixabay.com/photo/2020/05/22/19/35/tech-5206825_960_720.jpg" alt="project2">
@@ -140,7 +142,7 @@
         </div>
         
         <!-- Contact Form -->
-        <div class="form-container">
+        <div class="form-container" id="contact">
             <hr>
             <h2 class="contact">Contact</h2>
             <textarea name="Email Me" id="email" cols="30" rows="10" placeholder="Enter your message here"></textarea>

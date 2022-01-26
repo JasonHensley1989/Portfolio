@@ -41,8 +41,6 @@ nav {
     box-shadow: 10px 8px 14px 0px #3e7ca5;
     position: fixed;
     scroll-behavior: smooth;
-    right: 10px;
-
 }
 
 nav a {
@@ -57,7 +55,7 @@ nav a {
 }
 
 nav a:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 
@@ -437,7 +435,13 @@ button:hover {
     position: relative;   
 }
 
+@media screen and(max-width: 767px) {
+    nav a{
+       display: none;
+    }
 
+    .
+}
 
 @media screen and (min-width: 768px) { 
 
@@ -446,7 +450,7 @@ button:hover {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        grid-gap: 10px;
+        grid-gap: 20px;
         justify-content: center;
         align-items: center;
         margin: 0 auto;
@@ -460,17 +464,20 @@ button:hover {
 
 @media screen and (min-width: 1024px) {
     .other-projects {
-        width: 70%;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-gap: 10px;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
+       
     }
 
     .highlight img {
         width: 35%;
-    }   
+    }
+
+    .projects {
+        position: relative;
+        right: 350px;
+    }
+    
+    .extra-projects-title {
+        
+    }
+       
 }

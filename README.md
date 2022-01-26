@@ -82,8 +82,18 @@ an image animation similar to [Liana Penns Website]('https://www.lianapenn.com')
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+<!-- this code does a typewriter animation which i find beautiful its so simple  -->
+
+let i = 0;
+let txt = 'Hello, my name is Jason. I am a full-stack software engineer.';
+let speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("name").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
 }
 ```
 

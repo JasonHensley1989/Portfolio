@@ -72,8 +72,7 @@ nav a:hover {
 
 h1 {
     position: relative;
-    bottom: 160px;
-    left: 100px;
+    bottom: 230px;
     text-align: center;
     color: #7395ae;
     font-weight: 900;
@@ -88,7 +87,21 @@ h1:hover {
 
 .animation-container {
     height: 900px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
 }
+
+.animation-container button {
+    position: relative;
+    bottom: 300px;
+    box-shadow: -4px 4px 16px 2px  #f2f2f2;
+    color: #7395ae;
+    font-size: 16px;
+}
+
+
 
 /* About Me Styling */
 .about-me h2 {
@@ -256,6 +269,8 @@ i {
 .highlight p {
     width: 50%;
     border: 2px double #f2f2f2;
+    padding: 20px;
+    margin-top: 40px;
 }
 
 .para, .para1, .para2 {
@@ -412,9 +427,10 @@ button:hover {
 */
 
 .type-btn {
-    position: absolute;
-    bottom: 300px;
-    left: 160px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #0c3855;
 }
 
 #name {

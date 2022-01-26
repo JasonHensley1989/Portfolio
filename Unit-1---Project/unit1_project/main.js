@@ -1,4 +1,5 @@
 // Typewriter effect animation
+// W3Schools - source
 var i = 0;
 var txt = 'Hello, my name is Jason. I am a full-stack software engineer.';
 var speed = 50;
@@ -11,7 +12,8 @@ function typeWriter() {
   }
 }
 
-
+//carousel 
+// w3 schools
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -43,7 +45,7 @@ function showSlides(n) {
 
 
 //JQuery to hide and show paragraph tags on click
-
+//Jquery docs - source
 $('.project-info1').click(function(event) {
     $('.para').slideToggle("slow", function() {
   });

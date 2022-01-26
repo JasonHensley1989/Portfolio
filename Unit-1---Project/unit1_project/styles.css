@@ -72,12 +72,15 @@ nav a:hover {
 
 h1 {
     position: relative;
-    bottom: 110px;
+    bottom: 160px;
+    left: 100px;
     text-align: center;
     color: #7395ae;
     font-weight: 900;
     font-size: 20px;
     text-shadow: -2px 12px #0f151a;
+    width: 70%;
+
 }
 h1:hover {
     transform: scale(1.5);
@@ -237,11 +240,22 @@ i {
     margin-top: 0px;
 }
 
+.highlight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .highlight img {
     margin-top: 20px;
     margin-bottom: 20px;
     width: 65%;
     height: 250px;
+}
+.highlight p {
+    width: 50%;
+    border: 2px double #f2f2f2;
 }
 
 .para, .para1, .para2 {
@@ -297,21 +311,15 @@ i {
     width: 300px;
     margin: 10px;
 }
-/* 
-.other-projects {
-    width: 70%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 10px;
-} */
+
 
 .other-projects {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    text-align: center;
+    align-content: center;
 }
 
 
@@ -410,6 +418,43 @@ button:hover {
 }
 
 #name {
-    position: relative;
-    
+    position: relative;   
+}
+
+
+
+@media screen and (min-width: 768px) { 
+
+    .other-projects {
+        width: 70%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 10px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .other-projects h2 {
+        position: relative;
+        left: 100px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .other-projects {
+        width: 70%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 10px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .highlight img {
+        width: 35%;
+    }   
 }

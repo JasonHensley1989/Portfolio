@@ -29,18 +29,20 @@ function showSlides(n) {
 
 
 //JQuery to hide and show paragraph tags on click
+
 $('.project-info1').click(function(event) {
-
-  // hides paragraph on click
-  $('.para').slideToggle("slow", function() {
-    
+    $('.para').slideToggle("slow", function() {
   });
-  //shows paragraph on click
-
 });
 
 $('.project-info2').click(function(event) {
-  $('para').slideToggle("slow", function(){
+    $('.para1').slideToggle("slow", function(){
     console.log("Second clicked");
-  })
-})
+  });
+});
+
+$('.project-info3').click(function(event) {
+    $('.para2').slideToggle("slow", function(){
+    console.log("Second clicked");
+  });
+});

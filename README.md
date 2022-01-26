@@ -8,9 +8,9 @@ Unit 1 Project Portfolio
 |---|---| ---|
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Timeline | Complete
-|Day 1| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 1| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 2| Responsive Web Design | Incomplete
-|Day 2| Extra elements and functionality | Incomplete
+|Day 2| Extra elements and functionality | Complete
 |Day 3| MVP, Animations, Bug Fixes | Incomplete
 |Day 4| Implementing API | Incomplete
 |Day 4| Final Touches | Incomplete
@@ -51,9 +51,9 @@ an image animation similar to [Liana Penns Website]('https://www.lianapenn.com')
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Static nav-bar | H | 30min | hr |
-| About Me Section | H | 30min | hr |  
-| Project Highlight Section | H | 3.5hr|  hr |
+| Static nav-bar | H | 30min | .5hr |
+| About Me Section | H | 30min | .2hr |  
+| Project Highlight Section | H | 3.5hr| 3 hr |
 | Animated Image - Top | M | 2hr | hr |
 | Skills icon carousel | M | 2hr|  hr | 
 | Responsive| M | 4hr | hr|

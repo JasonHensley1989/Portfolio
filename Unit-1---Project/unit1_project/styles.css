@@ -72,11 +72,11 @@ nav a:hover {
 
 h1 {
     position: relative;
-    bottom: 400px;
+    bottom: 110px;
     text-align: center;
-    color: white;
+    color: #7395ae;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 20px;
     text-shadow: -2px 12px #0f151a;
 }
 h1:hover {
@@ -84,7 +84,7 @@ h1:hover {
 }
 
 .animation-container {
-    height: 1000px;
+    height: 900px;
 }
 
 /* About Me Styling */
@@ -238,8 +238,9 @@ i {
 }
 
 .highlight img {
+    margin-top: 20px;
     margin-bottom: 20px;
-    width: 70%;
+    width: 65%;
     height: 250px;
 }
 
@@ -402,3 +403,13 @@ button:hover {
 
 */
 
+.type-btn {
+    position: absolute;
+    bottom: 300px;
+    left: 160px;
+}
+
+#name {
+    position: relative;
+    
+}

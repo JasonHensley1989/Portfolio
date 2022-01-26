@@ -1,4 +1,18 @@
-var slideIndex = 1;
+// Typewriter effect animation
+var i = 0;
+var txt = 'Hello, my name is Jason. I am a full-stack software engineer.';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("name").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+
+
+let slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls

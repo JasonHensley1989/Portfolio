@@ -46,3 +46,9 @@ $('.project-info3').click(function(event) {
     console.log("Second clicked");
   });
 });
+
+$('.other-projects').click(function() {
+  $('.pic').slideToggle("slow", function() {
+    console.log("More Projects Clicked");
+  });
+});

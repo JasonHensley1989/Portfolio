@@ -98,13 +98,13 @@ h1:hover {
 
 .about-me {
     margin: 0 auto;
-    text-align: left;
+    text-align: center;
 }
 
 .about-me p {
     margin-top: 20px;
+    text-align: center;
 }
-
 
 * {
     box-sizing:border-box
@@ -247,6 +247,10 @@ i {
     display: none;
 }
 
+.pic {
+    display: none;
+}
+
 .project-info1 {
     width: 70%;
     font-family: 'Orbitron', sans-serif;
@@ -279,8 +283,13 @@ i {
     box-shadow: -10px 8px 14px 0px #3e7ca5;
     border: none;
 }
-
-
+.btn-container i{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.btn-container i:hover {
+    transform: scale(1.5);
+}
 /* Other Projects */
 .other-projects img {
     height: 200px;
@@ -301,6 +310,7 @@ i {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 

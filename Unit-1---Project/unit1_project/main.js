@@ -26,3 +26,21 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+
+//JQuery to hide and show paragraph tags on click
+$('.project-info1').click(function(event) {
+
+  // hides paragraph on click
+  $('.para').slideToggle("slow", function() {
+    
+  });
+  //shows paragraph on click
+
+});
+
+$('.project-info2').click(function(event) {
+  $('para').slideToggle("slow", function(){
+    console.log("Second clicked");
+  })
+})

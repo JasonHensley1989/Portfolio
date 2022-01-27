@@ -5,6 +5,9 @@
 - #557a95
 - #b1a296 */
 
+
+
+
 body {
     background-color: #314d61;
     margin: 0;
@@ -27,7 +30,6 @@ main {
 
 
 
-
 /* nav bar styles */
 
  .nav-container {
@@ -37,16 +39,19 @@ main {
      width: 100%;
      display: flex;
      justify-content: space-around;
+     align-items: center;
      box-shadow: 4px 4px 14px 14px #91bbda;
      border-bottom: #0c3855;
      z-index: 1;
-
+     height: 75px;
+     flex-wrap: wrap;
  }
 
  .nav-container a {
      color: #f2f2f2;
      text-decoration: none;
      font-size: 1em;
+     padding: 5px;
  }
 
 
@@ -62,7 +67,7 @@ h1 {
     position: relative;
     bottom: 230px;
     text-align: center;
-    color: #7395ae;
+    color: #b1a296 ;
     font-weight: 900;
     font-size: 20px;
     text-shadow: -2px 12px #0f151a;
@@ -79,7 +84,6 @@ h1:hover {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    border: 2px solid red;
 }
 
 .animation-container button {
@@ -328,35 +332,6 @@ i {
 }
 
 
-.pic1 {
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-
-.pic2 {
-    grid-column: 2/3;
-    grid-row: 1/2;
-}
-
-.pic3 {
-    grid-column: 3/4;
-    grid-row: 1/2;
-}
-
-.pic4 {
-    grid-column: 1fr;
-    grid-row: 2/3;
-}
-
-.pic5 {
-    grid-column: 1fr;
-    grid-row: 2/3;
-}
-
-.pic6 {
-    grid-column: 1fr;
-    grid-row: 2/3;
-}
 
 /* Contact From */
 
@@ -432,36 +407,12 @@ hr {
     position: relative;   
 }
 
-@media screen and(max-width: 767px) {
-    
-}
-
-@media screen and (min-width: 768px) { 
-
-    .other-projects {
-        width: 70%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-gap: 20px;
+@media screen and (min-width: 768px) {
+    .other-projects .images {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        margin: 0 auto;
     }
-
-    .other-projects h2 {
-        position: relative;
-        left: 100px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .highlight img {
-        width: 35%;
-    }
-
-    .projects {
-        position: relative;
-        right: 350px;
-    }  
 }

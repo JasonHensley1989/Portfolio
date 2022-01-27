@@ -71,7 +71,7 @@ an image animation similar to [Liana Penns Website]('https://www.lianapenn.com')
 | Make Icon | H | 4hr | hr |
 | Implement API | H | 2hr | hr |
 | Total | H | 8hrs| hrs |
-
+f
 ## Additional Libraries
 | Library | Use |
 | --- | :--: |

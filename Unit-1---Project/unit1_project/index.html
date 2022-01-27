@@ -12,22 +12,23 @@
 <script
   src="https://code.jquery.com/jquery-3.6.0.js"
   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-  crossorigin="anonymous"></script>
+  crossorigin="anonymous">
+</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header class="nav-img">
-        <div class="nav-container"></div>
-            <nav class="nav">
-                <a href="#about-me">About Me</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href="#">Resume</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </div>
+        <div class="nav-container">
+                <a href="#home" class="nav-item">Home</a>
+                <a href="#about-me" class="nav-item">About Me</a>
+                <a href="#skills" class="nav-item">Skills</a>
+                <a href="#projects" class="nav-item">Projects</a>
+                <a href="#contact" class="nav-item">Contact</a>
+                <a href="#"><i class="fas fa-bars ham"></i></a>  
+        </div>    
         <div class="animation-container">  
             <img src="/Unit-1---Project/unit1_project/32452.jpg" alt="test" class="top">
-            <button onclick="typeWriter()" class="type-btn">Welcome! Press on</button>
+            <button onclick="typeWriter()" class="type-btn"></button>
             <h1 id="name"></h1>
         </div>
     </header>

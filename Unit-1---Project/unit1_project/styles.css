@@ -24,39 +24,34 @@ main {
     bottom: 160px;
 }
 
+
+
+
+
 /* Nav Bar Styles */
 
 .nav-container {
+    border: 1px solid green;
     width: 100%;
-}
-
-nav {
     display: flex;
     justify-content: center;
-    width:100%;
     align-items: center;
-    background-color: #7395ae;
-    height: 80px;
-    top: 0px;
-    box-shadow: 10px 8px 14px 0px #3e7ca5;
-    position: fixed;
-    scroll-behavior: smooth;
-}
 
-nav a {
+}
+.nav-container a {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #f2f2f2;
     text-decoration: none;
-    color: whitesmoke;
-    font-size: 1.1rem;
-    font-weight: 500;
-    text-shadow: 4px 4px #0c3855;
-    padding: 5px;
-    margin-left: 10px;
-    margin-right: 0px;
+    font-size: 18px;
 }
 
-nav a:hover {
-    transform: scale(1.2);
+a:hover {
+    color: #3e7ca5;
+    transform: scale(1.5);
 }
+
+
 
 
 
@@ -412,8 +407,9 @@ button:hover {
     text-align: center;
 }
 
-
-
+hr {
+    width: 90%;
+}
 /* Need to create 
 - Dropdown Project Descriptions
 - Typewriter Animation JS/JQuery
@@ -431,16 +427,39 @@ button:hover {
     background-color: #0c3855;
 }
 
+.type-btn:hover {
+    transform: scale(1.2);
+}
+
 #name {
     position: relative;   
 }
 
 @media screen and(max-width: 767px) {
-    nav a{
+   .nav a:not(:last-child) {
        display: none;
-    }
+   }
 
-    .
+   .nav a.icon {
+       float: right;
+       display: block;
+   }
+
+   .nav.responsive {
+       position: relative;
+   }
+
+   .nav.responsive a.icon {
+       position: absolute;
+       right: 0;
+       top: 0;
+   }
+
+   .nav.responsive a {
+       float: none;
+       display: block;
+       text-align: left;
+   }
 }
 
 @media screen and (min-width: 768px) { 
@@ -463,10 +482,6 @@ button:hover {
 }
 
 @media screen and (min-width: 1024px) {
-    .other-projects {
-       
-    }
-
     .highlight img {
         width: 35%;
     }
@@ -474,10 +489,5 @@ button:hover {
     .projects {
         position: relative;
         right: 350px;
-    }
-    
-    .extra-projects-title {
-        
-    }
-       
+    }  
 }

@@ -28,46 +28,26 @@ main {
 
 
 
-/* Nav Bar Styles */
+/* nav bar styles */
 
-.nav-container {
-    overflow: hidden;
-    max-width: 100%;
-   position: relative;
+ .nav-container {
+     background-color: #3e7ca5;
+     position: fixed;
+     top: 0;
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+     box-shadow: 4px 4px 14px 14px #91bbda;
+     border-bottom: #0c3855;
+     z-index: 1;
 
-}
-.nav-item{
-    display: none;
-}
+ }
 
-.nav-container a {
-    color: #f2f2f2;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 18px;
-    display: block;
-}
-
-.nav-container a.icon {
-    background-color: #314d61;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 100px;
-}
-
-a:hover {
-    color: #3e7ca5;
-}
-
-.active {
-    background-color: #2a3d4b;
-    color: white;
-}
-
-
-
+ .nav-container a {
+     color: #f2f2f2;
+     text-decoration: none;
+     font-size: 1em;
+ }
 
 
 /* Animated Header */
@@ -94,19 +74,21 @@ h1:hover {
 }
 
 .animation-container {
-    height: 900px;
+    height: 600px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+    border: 2px solid red;
 }
 
 .animation-container button {
     position: relative;
     bottom: 300px;
     box-shadow: -4px 4px 16px 2px  #f2f2f2;
-    color: #7395ae;
+    color: #3e7ca5;
     font-size: 16px;
+    opacity: 70%;
 }
 
 
@@ -114,7 +96,7 @@ h1:hover {
 /* About Me Styling */
 .about-me h2 {
     text-align: center;
-    margin-top: -100px;
+    
     font-size: 30px;
     text-shadow: 4px 4px #0c3855;
 }
@@ -439,11 +421,11 @@ hr {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    background-color: #0c3855;
+    background-color: #3e7ca5;
 }
 
 .type-btn:hover {
-    transform: scale(1.2);
+    background-color: #91bbda;
 }
 
 #name {
@@ -451,30 +433,7 @@ hr {
 }
 
 @media screen and(max-width: 767px) {
-   .nav a:not(:last-child) {
-       display: none;
-   }
-
-   .nav a.icon {
-       float: right;
-       display: block;
-   }
-
-   .nav.responsive {
-       position: relative;
-   }
-
-   .nav.responsive a.icon {
-       position: absolute;
-       right: 0;
-       top: 0;
-   }
-
-   .nav.responsive a {
-       float: none;
-       display: block;
-       text-align: left;
-   }
+    
 }
 
 @media screen and (min-width: 768px) { 

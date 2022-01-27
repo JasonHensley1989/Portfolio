@@ -73,8 +73,18 @@ $('.other-projects').click(function() {
 });
 
 //JQuery to hide nav div when hamburger button is clicked
-$('.ham').click(function(event) {
-  $('.nav').slideToggle("slow", function() {
+$('.icon').click(function(event) {
+  $('.nav-item').slideToggle("slow", function() {
     console.log("Hamburger Clicked")
   });
 });
+
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+// function myFunction() {
+//   let x = document.getElementById("nav-links");
+//   if (x.style.display === "block") {
+//     x.style.display = "none";
+//   } else {
+//     x.style.display = "block";
+//   }
+// }

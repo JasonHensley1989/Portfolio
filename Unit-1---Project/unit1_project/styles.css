@@ -31,24 +31,39 @@ main {
 /* Nav Bar Styles */
 
 .nav-container {
-    border: 1px solid green;
+    overflow: hidden;
     max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   position: relative;
 
 }
+.nav-item{
+    display: none;
+}
+
 .nav-container a {
-    margin-left: 50px;
-    margin-right: 50px;
     color: #f2f2f2;
+    padding: 14px 16px;
     text-decoration: none;
     font-size: 18px;
+    display: block;
+}
+
+.nav-container a.icon {
+    background-color: #314d61;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 100px;
 }
 
 a:hover {
     color: #3e7ca5;
-    transform: scale(1.5);
+}
+
+.active {
+    background-color: #2a3d4b;
+    color: white;
 }
 
 

@@ -12,7 +12,6 @@ Unit 1 Project Portfolio
 |Day 2| Responsive Web Design | Complete
 |Day 2| Extra elements and functionality | Complete
 |Day 3| MVP, Animations, Bug Fixes | Complete
-|Day 4| Implementing API | Incomplete
 |Day 4| Final Touches | Incomplete
 |Day 5| Present | Incomplete
 
